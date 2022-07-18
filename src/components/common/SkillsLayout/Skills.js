@@ -15,61 +15,94 @@ import DockerLogo from '../../../assets/images/icons/docker.svg'
 
 const Skills = () => {
     return (
-        <div className='skills' id='projects'>
+        <div className='skills' id='skills'>
             <p className='skills-title'>My tech stack</p>
             <div className='skills-grid'>
                 <div className='item'>
-                    <img src={ReactLogo} alt='logo' />
-                    <h1>React</h1>
+                    <a href='https://reactjs.org/'>
+                        <img src={ReactLogo} alt='logo' />
+                        <h1>React</h1>
+                    </a>
+
                 </div>
                 <div className='item'>
-                    <img src={ReduxLogo} alt='logo' />
-                    <h1>Redux</h1>
+                    <a href='https://reactjs.org/'>
+                        <img src={ReduxLogo} alt='logo' />
+                        <h1>Redux</h1>
+                    </a>
+
                 </div>
                 <div className='item'>
-                    <img src={SassLogo} alt='logo' />
-                    <h1>Sass</h1>
+                    <a href='https://reactjs.org/'>
+                        <img src={SassLogo} alt='logo' />
+                        <h1>Sass</h1>
+                    </a>
+
                 </div>
 
                 <div className='item'>
-                    <img src={JestLogo} alt='logo' />
-                    <h1>Jest</h1>
+                    <a href='https://reactjs.org/'>
+                        <img src={JestLogo} alt='logo' />
+                        <h1>Jest</h1>
+                    </a>
+
                 </div>
                 <div className='item'>
-                    <img src={GitLogo} alt='logo' />
-                    <h1>React</h1>
+                    <a href='https://reactjs.org/'>
+                        <img src={GitLogo} alt='logo' />
+                        <h1>React</h1>
+                    </a>
+
                 </div>
                 <div className='item'>
-                    <img src={HTMLLogo} alt='logo' />
-                    <h1>HTML5</h1>
+                    <a href='https://reactjs.org/'>
+                        <img src={HTMLLogo} alt='logo' />
+                        <h1>HTML5</h1>
+                    </a>
+
                 </div>
                 <div className='item'>
-                    <img src={CSSLogo} alt='logo' />
-                    <h1>CSS3</h1>
+                    <a href='https://reactjs.org/'>
+                        <img src={CSSLogo} alt='logo' />
+                        <h1>CSS3</h1>
+                    </a>
+
                 </div>
                 <div className='item'>
-                    <img src={JavaScriptLogo} alt='logo' />
-                    <h1>JavaScript</h1>
+                    <a href='https://reactjs.org/'>
+                        <img src={JavaScriptLogo} alt='logo' />
+                        <h1>JavaScript</h1>
+                    </a>
+
                 </div>
             </div>
 
-            <p className='other-skills-title'>Tech in comfortable with</p>
+            <p className='other-skills-title'>Tech I am comfortable with</p>
             <div className='other-skills-grid'>
                 <div className='item'>
-                    <img src={NodeLogo} alt='logo' />
-                    <h1>Node</h1>
+                    <a href='https://reactjs.org/'>
+                        <img src={NodeLogo} alt='logo' />
+                        <h1>Node</h1>
+                    </a>
+
                 </div>
                 <div className='item'>
-                    <img src={ExpressLogo} alt='logo' />
-                    <h1>Express</h1>
+                    <a href='https://reactjs.org/'>
+                        <img src={ExpressLogo} alt='logo' />
+                        <h1>Express</h1>
+                    </a>
+
                 </div>
                 <div className='item'>
-                    <img src={DockerLogo} alt='logo' />
-                    <h1>Docker</h1>
+                    <a href='https://reactjs.org/'>
+                        <img src={DockerLogo} alt='logo' />
+                        <h1>Docker</h1>
+                    </a>
+
                 </div>
 
-             
-                </div>
+
+            </div>
         </div>
     )
 }

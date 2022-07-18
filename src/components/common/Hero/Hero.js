@@ -4,7 +4,7 @@ import profilePicture from '../../../assets/images/pfp.jpg'
 import Skills from '../SkillsLayout/Skills'
 const Hero = () => {
     return (
-        <div className='hero-content'>
+        <div className='hero-content' id='main'>
             <div className='hero'>
 
                 <div className='hero-text'>
