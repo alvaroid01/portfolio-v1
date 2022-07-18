@@ -1,6 +1,10 @@
 
-/* GRADIENT LISTS
+/*SCROLLBAR VARS
 
+$hsize: 15px
+$foreground-color: white
+$background-color: white
+/* GRADIENT LISTS
 $gradients: () !default
 $gradients: map-merge((dark: linear-gradient(180deg, #000 60%,#1c2531 100%)), $gradients)
 
@@ -27,3 +31,19 @@ code
   monospace
 html
   scroll-behavior: smooth
+
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white, 50%))
+  ::-webkit-scrollbar
+    width: $hsize
+  ::-webkit-scrollbar-thumb
+    background: $foreground-color
+
+  ::-webkit-scrollbar-track
+    background: $background-color
+
+  // For Internet Explorer
+  body
+    scrollbar-face-color: $foreground-color
+    scrollbar-track-color: $background-color
+
+@include scrollbars(.5em, grey)
