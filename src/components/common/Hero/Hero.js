@@ -20,7 +20,7 @@ const Hero = () => {
                     <button><a href={engCV} target="_blank" rel="noreferrer">My CV</a></button>
                 </div>
                 <div className='hero-image'>
-                    <img src={profilePicture} />
+                    <img src={profilePicture} alt='pfp' />
                 </div>
             </div>
 
