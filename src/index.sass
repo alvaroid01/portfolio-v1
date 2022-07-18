@@ -1,0 +1,29 @@
+
+/* GRADIENT LISTS
+
+$gradients: () !default
+$gradients: map-merge((dark: linear-gradient(180deg, #000 10%,#1c2531 80%)), $gradients)
+
+// Gradient backgrounds
+@mixin bg-gradient($parent, $gradient)
+  #{$parent}
+    background: $gradient
+
+@each $gradient, $value in $gradients
+  @include bg-gradient(".bg-gradient-#{$gradient}", $value)
+  @include bg-gradient(".bg-gradient", $value)
+
+body
+  margin: 0
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif
+  //font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+code
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace
+html
+  scroll-behavior: smooth
