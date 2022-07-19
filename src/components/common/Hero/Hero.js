@@ -17,7 +17,7 @@ const Hero = () => {
                         This journey began 3 years ago, when upon looking for careers, I decided to,
                         instead of going for a university degree like all my other collegues, getting myself into a 2 years web and app programming course.
                         Ever since that very moment I haven't stop <b>learning each and every day</b> aiming to become a <b>better developer</b>.</p>
-                    <button><a href={engCV} target="_blank" rel="noreferrer">My CV</a></button>
+                    <button><a href={engCV} target="_blank" rel="noreferrer">My resume</a></button>
                 </div>
                 <div className='hero-image'>
                     <img src={profilePicture} alt='pfp' />
